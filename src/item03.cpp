@@ -36,7 +36,7 @@ public:
 
 	char& operator[](size_t p)
 	{
-		return text[p];
+		return const_cast<char&>(static_cast<const TextBlock&>(*this)[p]);
 	}
 
 private:
