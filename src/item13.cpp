@@ -57,6 +57,7 @@ void f()
 
 #endif
 
+
 #if 0
 void f()
 {
@@ -67,11 +68,13 @@ void f()
 
 	cout << "end void f()" << endl;
 }
+
 #endif
+
 
 int main()
 {
-	//f();
-	ferror();
+	f();
+//	ferror();
 }
 
