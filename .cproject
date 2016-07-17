@@ -27,7 +27,7 @@
 								<option id="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level.281886376" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level.1856269092" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.other.other.1689244546" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -std=c++14" valueType="string"/>
-								<option id="gnu.cpp.compiler.option.preprocessor.def.1760121271" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1760121271" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.892700002" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1259015409" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug">
@@ -45,14 +45,12 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.1655409754.1443258811" name="item17.cpp" rcbsApplicability="disable" resourcePath="src/item17.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.560503694.1217160025">
-						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.560503694.1217160025" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.560503694">
-							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.31940875" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
-						</tool>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.1655409754.139685315" name="item20.cpp" rcbsApplicability="disable" resourcePath="src/item20.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.560503694.1338608054">
+						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.560503694.1338608054" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.560503694"/>
 					</fileInfo>
 					<sourceEntries>
 						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry excluding="item17.cpp|item16.cpp|item15.cpp|item14.cpp|item13.cpp|item12.cpp|item11.cpp|item10.cpp|item09.cpp|item06.cpp|item08.cpp|item07.cpp|item04.cpp|item05.cpp|item03.cpp|item02.cpp|Item01.cpp|Item00.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="item20.cpp|item18.cpp|item19.cpp|item17.cpp|item16.cpp|item15.cpp|item14.cpp|item13.cpp|item12.cpp|item11.cpp|item10.cpp|item09.cpp|item06.cpp|item08.cpp|item07.cpp|item04.cpp|item05.cpp|item03.cpp|item02.cpp|Item01.cpp|Item00.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
