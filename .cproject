@@ -28,6 +28,9 @@
 								<option id="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level.1856269092" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.other.other.1689244546" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -std=c++14" valueType="string"/>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.1760121271" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.include.paths.713756766" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src.item31}&quot;"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.892700002" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.1259015409" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug">
@@ -45,12 +48,18 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.1655409754.248699763" name="item29.cpp" rcbsApplicability="disable" resourcePath="src/item29.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.560503694.1296178721">
-						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.560503694.1296178721" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.560503694"/>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.1655409754.2050836500" name="item32.cpp" rcbsApplicability="disable" resourcePath="src/item32.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.560503694.1224919620">
+						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.560503694.1224919620" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.560503694"/>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.1604192193" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.55838092" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.1190090752" name="Resource Custom Build Step Output Type"/>
+						</tool>
 					</fileInfo>
 					<sourceEntries>
-						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry excluding="item29.cpp|item00.cpp|item01.cpp|item28.cpp|item27.cpp|item26.cpp|item25_2.cpp|item25_1.cpp|item24.cpp|item23.cpp|item22.cpp|item21.cpp|item20.cpp|item18.cpp|item19.cpp|item17.cpp|item16.cpp|item15.cpp|item14.cpp|item13.cpp|item12.cpp|item11.cpp|item10.cpp|item09.cpp|item06.cpp|item08.cpp|item07.cpp|item04.cpp|item05.cpp|item03.cpp|item02.cpp|Item01.cpp|Item00.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="src.item31|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="item32.cpp|item31.cpp|item30.cpp|item29.cpp|item00.cpp|item01.cpp|item28.cpp|item27.cpp|item26.cpp|item25_2.cpp|item25_1.cpp|item24.cpp|item23.cpp|item22.cpp|item21.cpp|item20.cpp|item18.cpp|item19.cpp|item17.cpp|item16.cpp|item15.cpp|item14.cpp|item13.cpp|item12.cpp|item11.cpp|item10.cpp|item09.cpp|item06.cpp|item08.cpp|item07.cpp|item04.cpp|item05.cpp|item03.cpp|item02.cpp|Item01.cpp|Item00.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -96,8 +105,9 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="src.item31|src" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src.item31"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
