@@ -51,6 +51,19 @@ public:
 	}
 };
 
+// "is impltedinted terms of " > interface
+// "has-a(composition)" = private(c++) = >>>> x >
+/**
+ *
+ * class Bird {
+ *  	private:
+ *  		 Penguin p;
+ * }
+ *
+ *
+ * class Penguin {
+ * }
+ */
 #if 0
 class Bird {
 public:
@@ -60,7 +73,7 @@ public:
 	virtual void fly();
 };
 
-class Penguin: public Bird {
+class Penguin: public Bird {// "is -a »ó¼Ó" = public(c++) > extends
 public:
 	virtual ~Penguin() {
 
@@ -98,7 +111,7 @@ public:
 	}
 };
 
-class Penguin: public Bird {
+class Penguin: public Bird { // is-a
 public:
 	virtual ~Penguin() {
 
