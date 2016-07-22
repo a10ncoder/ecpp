@@ -6,43 +6,6 @@
  */
 
 #include <iostream>
-#if 0
-class GameCharacter {
-public:
-	int healthValue() const {
-		int retVal = doHealthValue();
-
-		return retVal;
-	}
-
-	virtual ~GameCharacter() {
-
-	}
-private:
-	virtual int doHealthValue() const {
-		return 100;
-	}
-};
-
-class Poketmon: public GameCharacter {
-public:
-	virtual ~Poketmon() {
-
-	}
-private:
-	virtual int doHealthValue() const {
-		return 200;
-	}
-};
-#endif
-
-#if 0
-class GameCharacter {
-public:
-	virtual int healthValue const;
-};
-
-#endif
 
 class Airport {
 
@@ -180,12 +143,6 @@ public:
 #endif
 
 int main() {
-
-#if 0
-	Poketmon p;
-
-	std::cout << p.healthValue() << std::endl;
-#endif
 
 #if 1
 	Airport pdx;
