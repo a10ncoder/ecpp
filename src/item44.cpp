@@ -43,6 +43,8 @@ public:
 		//SquareMatrixBase<T>::invert(n);
 	}
 private:
+	// http://www.boost.org/users/download/
+	// https://theseekersquill.wordpress.com/2010/08/24/howto-boost-mingw/
 	boost::scoped_array<T> pData;
 };
 
