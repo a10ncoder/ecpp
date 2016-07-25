@@ -6,6 +6,8 @@
  */
 
 #include <iostream>
+#include <boost/scoped_array.hpp>
+
 template<typename T>
 class SquareMatrixBase {
 protected:
