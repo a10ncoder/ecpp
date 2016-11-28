@@ -1,0 +1,27 @@
+Item 7: Declare destructors virtual in polymorphic base classes
+----------------------------------------------------------------
+
+There are lots of ways to keep track of time, so it would be reasonable to create a TimeKeeper base class along with derived classes for differ- ent approaches to timekeeping.
+
+TimeKeeper *ptk = getTimeKeeper();// get dynamically allocated object from TimeKeeper hierarchy
+
+The problem is that getTimeKeeper returns a pointer to a derived class object (e.g., AtomicClock), that object is being deleted via a base class pointer (i.e., a TimeKeeper* pointer), and the base class (TimeKeeper) has a non-virtual destructor. This is a recipe for disaster.
+
+What typically happens at runtime is that the derived part of the object is never destroyed
+
+Eliminating the problem is simple: give the base class a virtual destructor. Then deleting a derived class object will do exactly what you want. It will destroy the entire object, including all its derived class parts.
+
+//—————————————-//
+
+Problem with virtual destructor:
+
+	In fact, many people summarize the situation this way: declare a virtual destructor in a class if and only if that class contains at least one virtual function.
+
+	Sometimes, however, you have a class that you’d like to be abstract, but you don’t have any pure virtual functions. What to do?
+
+	the solution is simple: declare a pure virtual destructor in the class you want to be abstract —> class AWOV
+
+
+Things to Remember
+✦ Polymorphic base classes should declare virtual destructors. If a class has any virtual functions, it should have a virtual destructor.
+✦ Classes not designed to be base classes or not designed to be used polymorphically should not declare virtual destructors
