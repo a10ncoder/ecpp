@@ -1,0 +1,10 @@
+6.-Explicitly disallow the use of compiler- generated functions you do not want.
+--------------------------------------------------------------------------------
+
+Compilers may implicitly generate a class’s default constructor, copy constructor, copy assignment operator, and destructor:
+
+
+The key to the solution is declare the copy constructor and the copy assignment operator private. By declaring a member function explicitly, you prevent compilers from generating their own version, and by making the function private, you keep people from calling it.
+
+Things to Remember
+✦ To disallow functionality automatically provided by compilers, de- clare the corresponding member functions private and give no imple- mentations. Using a base class like Uncopyable is one way to do this
